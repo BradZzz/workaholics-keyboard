@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/keyboard_icons_stickers_unselected"
+    android:insetTop="10dp"
+    android:insetBottom="10dp"
+    android:insetLeft="11dp"
+    android:insetRight="11dp">
+</inset>

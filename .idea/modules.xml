@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidkeyboard/androidkeyboard.iml" filepath="$PROJECT_DIR$/androidkeyboard/androidkeyboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mixpanelandroid/mixpanelandroid.iml" filepath="$PROJECT_DIR$/mixpanelandroid/mixpanelandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workaholics-keyboard.iml" filepath="$PROJECT_DIR$/workaholics-keyboard.iml" />
+    </modules>
+  </component>
+</project>
+

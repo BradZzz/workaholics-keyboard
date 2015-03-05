@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId 'com.snaps.workaholics_emojikeyboard'
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':mixpanelandroid')
+    compile 'com.google.android.gms:play-services:+'
+    compile 'com.koushikdutta.ion:ion:2.0.8'
+    compile 'net.hockeyapp.android:HockeySDK:3.5.0-b.4'
+    compile 'com.parse.bolts:bolts-android:1.1.4'
+    compile files('/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/libs/Parse-1.8.2.jar')
+    compile files('/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/libs/ParseCrashReporting-1.8.2.jar')
+    compile 'com.apptentive:apptentive-android:1.7.0'
+    compile 'com.koushikdutta.async:androidasync:2.0.8'
+}

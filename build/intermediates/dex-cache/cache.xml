@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/BradZ/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-9a90a595aec68ff45159099b8afda4d6b43ab0f9.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-ad5a67a1b6027fdfe17a960d062c752db95f3d7c.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.apptentive/apptentive-android/1.7.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d65da785cc32b720a4e2adb2f6bc004243b357f0">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-2da5984c2cf7ebac7247a45ccee51cd7c2800303.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/.gradle/caches/modules-2/files-2.1/net.hockeyapp.android/HockeySDK/3.5.0-b.4/8d286692fcb4667cbc01c852d201062da09064d3/HockeySDK-3.5.0-b.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d286692fcb4667cbc01c852d201062da09064d3">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/HockeySDK-3.5.0-b.4-410d9b2f8f78856a70648df4faf0b144547bbf0b.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-5157e9248daa9dcbba9735c143b8e1e74295ddf6.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/libs/ParseCrashReporting-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-14ab95e59729a9cfdbdb12f2db8c07c4fbdea35a.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/libs/Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/Parse-1.8.2-3fadd9cc6328684f7cf5c812cf03e2ee3bcb33a1.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/gson-2.3-19f43881eb4a2abe5f8bd116d2d07e0ebc585805.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/exploded-aar/workaholics-keyboard/mixpanelandroid/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1328bd34a90c972871448ff82bfcc97c808e00c9">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-434c94f9c82fa50924ba0f3049b408f4a9654c56.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-1bc8372b25593305d3878ad52fdf9368112b0d65.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.0.8/a306709c5e2373ced6f3a622af4f696f2a1b7e20/androidasync-2.0.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a306709c5e2373ced6f3a622af4f696f2a1b7e20">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/androidasync-2.0.8-5db816e30ca6ffc66add35de4f301cab173c5b7e.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-c73f06576c553cd175c6dbdd8f68dc5b6ee90e38.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-5a088962f639185e373436625fd8f2f051497222.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.0.8/820bcab67f0631e4d6eb8e2c41a871f235e50eb8/ion-2.0.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="820bcab67f0631e4d6eb8e2c41a871f235e50eb8">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/ion-2.0.8-a15132454e7791334c9929f4ce70c37970ecacc3.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/exploded-aar/broadcity-keyboard/mixpanelandroid/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb717bd65b6e8d9a34bc5179bcbe5e254f193914">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-dfe83c379cfa8ff8e3a3b23ead76451fb4e5346f.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-e8b9059674cf0ea9afb9b5441903a4d459a29bd4.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.apptentive/apptentive-android/1.7.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d65da785cc32b720a4e2adb2f6bc004243b357f0">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-73422b7e3e3f89c13d3b6d81f70ecd05139b1c40.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-52c9f27523b1fa7f723aa97a9419a216d1b0c0ef.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/broadcity-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-a169146b8914e329e6ed1445175fba9c3876c728.jar" />
+    </item>
+    <item
+        jar="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/BradZ/AndroidstudioProjects/workaholics-keyboard/androidkeyboard/build/intermediates/pre-dexed/debug/classes-bf9970e4ae8e515991e8cd772a85de35d6ce910d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="apptentive-android-1.7.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/androidkeyboard/build/intermediates/exploded-aar/com.apptentive/apptentive-android/1.7.0/res" />
+      <root url="jar://$PROJECT_DIR$/androidkeyboard/build/intermediates/exploded-aar/com.apptentive/apptentive-android/1.7.0/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,20 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/container_plane"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/transparent"
+  android:orientation="vertical">
+  <TextView
+    android:id="@+id/container_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/keyface_default"
+    android:textStyle="bold"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="50dp"
+    android:textSize="24sp"
+    android:gravity="center"
+    android:text="@string/slide_1"/>
+</LinearLayout>

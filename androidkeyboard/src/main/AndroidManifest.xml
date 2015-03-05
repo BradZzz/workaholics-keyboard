@@ -1,0 +1,84 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+    package="com.snaps.workaholics_emojikeyboard"
+    android:versionCode="12"
+    android:versionName="0.2.2">
+    
+  <uses-sdk
+     android:minSdkVersion="14"
+     android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-feature android:name="android.hardware.telephony" android:required="true"/>
+    <permission android:protectionLevel="signature" android:name="com.snaps.workaholics_emojikeyboard.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.snaps.workaholics_emojikeyboard.permission.C2D_MESSAGE" />
+    <supports-screens android:largeScreens="true"
+                      android:normalScreens="true"
+                      android:smallScreens="true"
+                      android:anyDensity="true"/>
+
+	<application 
+	    android:name="com.snaps.workaholics_emojikeyboard.EmojiApplication"
+	    android:label="@string/ime_name"
+	    android:icon="@drawable/ic_launcher"
+        android:allowBackup="true"
+        android:largeHeap="true">
+		<activity android:name="net.hockeyapp.android.UpdateActivity" />
+    <activity
+	    android:name="com.snaps.workaholics_emojikeyboard.ActivitySliderContainer"
+	    android:label="@string/ime_name"
+	    android:theme="@style/ActTheme"
+	    android:configChanges="orientation"
+        android:screenOrientation="portrait" >
+	    <intent-filter>
+	        <action android:name="android.intent.action.MAIN" />
+	        <category android:name="android.intent.category.LAUNCHER" />
+	    </intent-filter>
+    </activity>
+    <activity android:name="com.mixpanel.android.surveys.SurveyActivity" />
+    <service android:name="com.snaps.workaholics_emojikeyboard.ServiceEmojiKeyboard"
+        android:permission="android.permission.BIND_INPUT_METHOD">
+      <intent-filter>
+        <action android:name="android.view.InputMethod" />
+      </intent-filter>
+      <meta-data android:name="android.view.im" android:resource="@xml/method" />
+    </service>
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <meta-data android:name="com.mixpanel.android.MPConfig.DisableAppOpenEvent" android:value="false" />
+    <service android:name="com.parse.PushService" />
+		<receiver android:name="com.parse.ParseBroadcastReceiver">
+		  <intent-filter>
+		    <action android:name="android.intent.action.BOOT_COMPLETED" />
+		    <action android:name="android.intent.action.USER_PRESENT" />
+		  </intent-filter>
+		</receiver>
+		<receiver android:name="com.parse.ParsePushBroadcastReceiver"
+		    android:exported="false">
+		  <intent-filter>
+		    <action android:name="com.parse.push.intent.RECEIVE" />
+		    <action android:name="com.parse.push.intent.DELETE" />
+		    <action android:name="com.parse.push.intent.OPEN" />
+		    </intent-filter>
+		</receiver>
+		<receiver android:name="com.parse.GcmBroadcastReceiver"
+		    android:permission="com.google.android.c2dm.permission.SEND">
+		  <intent-filter>
+		    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+		    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+		    <category android:name="com.snaps.workaholics_emojikeyboard" />
+		  </intent-filter>
+		</receiver>
+		<meta-data android:name="com.parse.push.notification_icon" android:resource="@drawable/ic_launcher"/>
+        <meta-data android:name="apptentive_api_key" android:value="a8441672f4883dafef3b804a04875f265ebed0522fe15a924c616321015e8a5f"/>
+        <activity android:name="com.apptentive.android.sdk.ViewActivity"
+                  android:theme="@style/Apptentive.Theme.Transparent"/>
+	</application>
+</manifest>
